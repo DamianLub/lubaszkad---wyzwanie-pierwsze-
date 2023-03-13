@@ -19,8 +19,7 @@ namespace StringCalculator
         [TestMethod]
         public void ASingleNumberReturnsTheValue()
         {
-//            int result = StringCalculator.Calculate("2"); //dobre
-            int result = StringCalculator.Calculate("5"); //zepsute
+            int result = StringCalculator.Calculate("2");
             Assert.AreEqual(result, 2);
         }
 
